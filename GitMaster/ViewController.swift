@@ -23,6 +23,8 @@ class ViewController: UIViewController {
       super.viewDidLoad()
       // yo yo yo
       // the other comment
+      // yikes yikes
+      // that comment
    }
    // wacky
 }
