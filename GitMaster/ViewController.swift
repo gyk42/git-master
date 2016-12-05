@@ -22,6 +22,7 @@ class ViewController: UIViewController {
    override func viewDidLoad() {
       super.viewDidLoad()
       // yo yo yo
+      // the other comment
    }
    // wacky
 }
