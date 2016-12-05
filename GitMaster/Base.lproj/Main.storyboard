@@ -41,11 +41,21 @@
                                     <action selector="chaneBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bfq-zl-8sO"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Git Fun!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U53-Wr-AJ8">
+                                <rect key="frame" x="115" y="333" width="144" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="U53-Wr-AJ8" firstAttribute="top" secondItem="83d-pG-D8l" secondAttribute="bottom" constant="101" id="53a-Sp-eFK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U53-Wr-AJ8" secondAttribute="bottom" constant="274" id="Fmp-2T-xpb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U53-Wr-AJ8" secondAttribute="trailing" constant="100" id="HGU-cV-VEd"/>
                             <constraint firstItem="83d-pG-D8l" firstAttribute="top" secondItem="CK4-0J-laz" secondAttribute="bottom" constant="55" id="SAk-F4-c6b"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CK4-0J-laz" secondAttribute="trailing" constant="73" id="Wxb-5s-L2F"/>
+                            <constraint firstItem="U53-Wr-AJ8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="99" id="b2Q-f2-WcQ"/>
                             <constraint firstItem="83d-pG-D8l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="119" id="fQa-mm-XjE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="83d-pG-D8l" secondAttribute="bottom" constant="435" id="nWF-Fg-tsR"/>
                             <constraint firstItem="CK4-0J-laz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="t4m-5N-tt2"/>
